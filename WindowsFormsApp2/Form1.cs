@@ -29,10 +29,11 @@ namespace CVHelper
         private void Design()
         {
             txtInput.AutoSize = false;
-            //txtInput.Size = new Size(142, 27);
+            txtInput.Font = new Font("Arial", 16);
             txtInput.Height = 28;
             txtInput.BorderStyle = BorderStyle.FixedSingle;
-            txtInput.Padding = new Padding(3, 3, 3, 3);
+            txtInput.Padding = new Padding(4, 4, 4, 4);
+            
         }
 
         private void Setting()
